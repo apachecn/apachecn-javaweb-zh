@@ -1,4 +1,4 @@
-## 第三部分：写日志方面。
+# 第三部分：使用切面编写日志
 
 * * *
 
@@ -35,7 +35,7 @@
 
 *为方面添加 bean。
 
-6.  为我们希望在 connection_new.xml 的应用程序中使用的方面添加 bean，如下所示：
+6.  为我们希望在 connection_new.xml 的应用中使用的方面添加 bean，如下所示：
 
 ```
 <bean id="myLogger"
@@ -73,7 +73,7 @@
       book deleted successfully
 ```
 
-这里 BookDAO_JdbTemplate 作为目标对象，其代理将在运行时通过编织 addBook（）和 beforeAdvise（）方法的代码创建。现在，一旦我们了解了这个过程，让我们通过以下步骤在应用程序中逐个添加不同的切入点和建议。
+这里 BookDAO_JdbTemplate 作为目标对象，其代理将在运行时通过编织 addBook（）和 beforeAdvise（）方法的代码创建。现在，一旦我们了解了这个过程，让我们通过以下步骤在应用中逐个添加不同的切入点和建议。
 
 ### 注
 
@@ -157,9 +157,9 @@ book deleted successfully
 
 ### 增加周边建议。
 
-正如我们已经讨论过的，只有在执行成功的情况下，才会在业务逻辑方法之前和之后调用 advice。让我们在应用程序中添加以下内容：
+正如我们已经讨论过的，只有在执行成功的情况下，才会在业务逻辑方法之前和之后调用 advice。让我们在应用中添加以下内容：
 
-1.  在 MyLoggingAspect 中添加一个 aroundAdvise（）方法。此方法必须有一个参数作为 ProceedingJoinPoint，以便于应用程序流向连接点。代码如下：
+1.  在 MyLoggingAspect 中添加一个 aroundAdvise（）方法。此方法必须有一个参数作为 ProceedingJoinPoint，以便于应用流向连接点。代码如下：
 
 ![](https://www.packtpub.com/graphics/9781787120341/graphics/image_04_003.png)
 
