@@ -2,7 +2,7 @@
 
 > 协议：[CC BY-NC-SA 4.0](http://creativecommons.org/licenses/by-nc-sa/4.0/)
 > 
-> 三十年，众生牛马；六十年，诸龙佛像。
+> 三十年，众生牛马；六十年，诸佛龙象。
 
 * [在线阅读](https://javaweb.apachecn.org)
 * [在线阅读（Gitee）](https://apachecn.gitee.io/apachecn-javaweb-zh/)
