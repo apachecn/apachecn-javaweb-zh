@@ -7,7 +7,7 @@ Log4j 是最简单的事情。让我们使用以下步骤进行集成：
 1.  为了集成 Log4J，我们首先必须在应用程序中添加 Log4J-1.2.9.jar。
 2.  使用以下配置在类路径中添加 log4j.xml 以添加控制台和文件附加器：
 
-```
+```java
       <!DOCTYPE log4j:configuration SYSTEM "log4j.dtd"> 
       <log4j:configuration  
          xmlns:log4j='http://jakarta.apache.org/log4j/'> 

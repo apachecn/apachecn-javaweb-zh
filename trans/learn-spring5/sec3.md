@@ -6,7 +6,7 @@
 2.  在其中添加类型为 org.apache.log4j.Logger 的数据成员。
 3.  在其中添加一个 beforeAdvise（）方法。方法的签名可以是任何东西，这里我们添加 JoinPoint 作为参数。使用此参数，我们可以获得有关应用方面的类的信息。代码如下：
 
-```
+```java
       public class MyLoggingAspect { 
         Logger logger=Logger.getLogger(getClass()); 
         public void beforeAdvise(JoinPoint joinPoint) { 
