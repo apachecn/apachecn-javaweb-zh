@@ -18,6 +18,14 @@
 +   [Spring5 软件架构](docs/soft-arch-spring5/SUMMARY.md)
 +   [SpringMVC：设计现实世界的 Web 应用](docs/springmvc-design-realworld-webapp/SUMMARY.md)
 +   [Spring Security 中文第三版](docs/springsec-3e/SUMMARY.md)
++   [ExtJS 和 Spring 企业应用开发](docs/enterprise-app-dev-extjs-spring/SUMMARY.md)
++   [Spring5 高性能实用指南](docs/handson-high-perf-spring5/SUMMARY.md)
++   [Spring Security5 反应式应用实用指南](docs/handson-springsec5-react-app/SUMMARY.md)
++   [精通 SpringCloud](docs/master-springcloud/SUMMARY.md)
++   [Spring 集成基础知识](docs/spring-inter-essential/SUMMARY.md)
++   [Spring 微服务](docs/spring-microsvc/SUMMARY.md)
++   [Spring Security 3.x 秘籍](docs/springsec-3x-cb/SUMMARY.md)
++   [Spring WebService2 秘籍](docs/spring-web-svc2-cb/SUMMARY.md)
 
 ## 贡献指南
 
