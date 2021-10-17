@@ -26,6 +26,15 @@
 +   [Spring 微服务](docs/spring-microsvc/SUMMARY.md)
 +   [Spring Security 3.x 秘籍](docs/springsec-3x-cb/SUMMARY.md)
 +   [Spring WebService2 秘籍](docs/spring-web-svc2-cb/SUMMARY.md)
++   [谷歌 Web 工具包：GWT](docs/google-web-tk-gwt/SUMMARY.md)
++   [Eclipse MicroProfile 企业级微服务实用指南 ](docs/handson-enter-java-microsvc-eclipse-microprofile/SUMMARY.md)
++   [Hibernate 搜索示例](docs/hbn-search-exam/SUMMARY.md)
++   [Spring Android 即时入门](docs/ins-spring-android-start/SUMMARY.md)
++   [精通 Java9 微服务](docs/master-microsvc-java9/SUMMARY.md)
++   [精通 Spring 应用开发](docs/master-spring-app-dev/SUMMARY.md)
++   [RESTful Java 模式和最佳实践](docs/rest-java-pattern-best-prac/SUMMARY.md)
++   [RESTful Java Web 服务安全](docs/rest-java-websvc-sec/SUMMARY.md)
++   [SpringData 教程](docs/springdata/SUMMARY.md)
 
 ## 贡献指南
 
